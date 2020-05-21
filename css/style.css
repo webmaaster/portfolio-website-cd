@@ -1,0 +1,96 @@
+* {
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+  background-color: rgb(71, 62, 62);
+
+
+}
+
+.top-bar {
+  background-color: lightslategray;
+  width: 100%;
+  height: 65%;
+  
+
+}
+
+.top-bar h1, h2 {
+  display: inline-block;
+  margin: 50px 100px;
+
+
+}
+
+.top-bar h2 {
+  float: right;
+}
+#about-me, #my-photo {
+  display: inline-block;
+  float: left;
+}
+  
+#main-body {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+/* About me section */
+#my-photo {
+  width: 50%;
+  height: 450px;
+  margin: 10px;
+  padding: 15px;
+  border: 10px crimson solid;
+
+
+}
+
+#about-me {
+  width: 45%;
+  height: 450px;
+  margin: 10px;
+  padding: 15px;
+  border: 10px crimson solid;
+  background-color: lightskyblue;
+  
+}
+
+#main-body {
+  background-color: palevioletred;
+  width: 100%;
+  height: auto;
+}
+
+/* Main cotents area */
+#la-mode, #family-contacts, #five-eleven {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  width: 31.4%;
+  height: 900px;
+  margin: 10px;
+  padding: 15px;
+  border: 5px solid gold;
+
+}
+/*Contents photo area */
+article img.content-photos {
+  width: 350px;
+  width: 200px; 
+}
+
+/* Footer section */
+
+#silver-color {
+  background-color: lightpink;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+
+}
+
+footer img.footer-photo {
+  width: 25px;
+  height: 25px;
+}
