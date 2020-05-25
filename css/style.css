@@ -2,7 +2,7 @@
   width: 960px;
   height: auto;
   box-sizing: border-box;
-  background-color: silver;
+  background-color: rgb(32, 19, 19);
   overflow: hidden;
   
 
@@ -27,6 +27,8 @@
 .top-bar h2 {
   float: right;
 }
+
+
 #about-me, #my-photo {
   display: inline-block;
   float: left;
@@ -39,18 +41,24 @@
 }
 /* About me section */
 #my-photo, #about-me {
-  width: 40%;
-  height: 450px;
-  margin: 10px;
-  padding: 15px;
-  border: 20px #505050 solid;
+  width: 42.5%;
+  height: 400px;
+  margin: 15px 35px;
+  padding: 10px;
+  border: 10px #505050 solid;
 
   background-color: lightskyblue;
   float: left;
   overflow: hidden;
+  box-sizing: border-box;
 
 
 }
+
+.same-color {
+  width: 100%;
+}
+
 
 #main-body {
   background-color: palevioletred;
@@ -61,6 +69,7 @@
 /* Main cotents area */
 #la-mode, #family-contacts, #five-eleven {
   box-sizing: border-box;
+  background-color: cornsilk;
   
   float: left;
 
@@ -76,6 +85,7 @@ article div img .content-photos {
   width: 300px;
   width: 150px; 
 }
+
 /* H2 sub-contents */
 .same-color {
   width: 100%;
