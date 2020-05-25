@@ -1,8 +1,10 @@
-* {
-  width: auto;
+#container {
+  width: 960px;
   height: auto;
   box-sizing: border-box;
   background-color: silver;
+  overflow: hidden;
+  
 
 
 }
@@ -36,24 +38,18 @@
   height: auto;
 }
 /* About me section */
-#my-photo {
-  width: 50%;
+#my-photo, #about-me {
+  width: 40%;
   height: 450px;
   margin: 10px;
   padding: 15px;
   border: 20px #505050 solid;
 
-
-}
-
-#about-me {
-  width: 45%;
-  height: 450px;
-  margin: 10px;
-  padding: 15px;
-  border: 20px #505050 solid;
   background-color: lightskyblue;
-  
+  float: left;
+  overflow: hidden;
+
+
 }
 
 #main-body {
@@ -65,10 +61,11 @@
 /* Main cotents area */
 #la-mode, #family-contacts, #five-eleven {
   box-sizing: border-box;
-  display: inline-block;
+  
   float: left;
-  width: 31.4%;
-  height: 900px;
+
+  width: 31%;
+  height: 590px;
   margin: 10px;
   padding: 15px;
   border: 5px solid gold;
@@ -88,13 +85,42 @@ article div img .content-photos {
   text-align: justify;
 
 }
+article div img {
+  width: 250px;
+  height: 150px;
+}
+/*Technology areas */
+article div img.tech-images {
+  width: 40px;
+  height: 40px;
+}
 
+/* Buttons area */
+
+.btn-all {
+  width: 100px;
+  height: 40px;
+  color: crimson;
+  background-color: greenyellow;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-all:hover {
+  width: 110px;
+  height: 45px;
+  color: gold;
+  border-radius: 10px;
+  text-align: center;
+}
 /* Footer section */
 
 #silver-color {
-  background-color: lightpink;
+  margin-top: 15px;
+  background-color: honeydew;
+  
   width: 100%;
-  height: 75px;
+  height: 95px;
   text-align: center;
 
 }
@@ -102,4 +128,8 @@ article div img .content-photos {
 footer img.footer-photo {
   width: 25px;
   height: 25px;
+}
+
+.clear {
+  clear: both;
 }
